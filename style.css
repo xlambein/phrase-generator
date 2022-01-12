@@ -1,0 +1,54 @@
+body {
+	font-size: 16pt;
+	max-width: 800px;
+	margin: auto;
+	padding: 0;
+	padding-bottom: 20rem;
+}
+
+p {
+	margin: 0.5em 0;
+}
+
+html { padding: 0 }
+
+h1 { margin-top: 0 }
+
+/* input, textarea, select, button {
+	width : 150px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+} */
+
+input, select, textarea, button {
+	font-size: 100%;
+}
+
+select {
+	text-overflow: ellipsis;
+	width: 100%;
+	max-width: 100%;
+	/* display: block; */
+}
+
+textarea {
+	width: 100%;
+}
+
+fieldset {
+	margin: 0.5em 0;
+	padding: 0.75em;
+	padding-top: 0.4em;
+}
+fieldset > :nth-child(2) { margin-top: 0 !important; }
+fieldset > :last-child { margin-bottom: 0 !important;  }
+
+.tweet-this {
+	padding-left: 1em;
+	display: none;
+	font-size: 0.8em;
+}
+.sample-result:hover > .tweet-this {
+	display: inline;
+}
